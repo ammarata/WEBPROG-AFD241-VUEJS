@@ -15,6 +15,11 @@ onMounted(() => {
 </script>
 
 <template>
+    <h1>Hello WEBPROG AFD241 World!</h1>
+    <h2>Food</h2>
+    <food-item/>
+    <food-item2/>
+  
   <ul>
     <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
   </ul>
